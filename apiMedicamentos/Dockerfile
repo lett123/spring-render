@@ -1,5 +1,5 @@
 #Etapa de construção
-FROM maven:4.0.0-openjdk-21 AS build
+FROM maven:3.9.6-openjdk-21 AS build
 #FROM ubuntu:latest AS build
 #FROM openjdk:21-jdk-slim AS build
 #RUN apt-get update && apt-get-install -y maven && apt-get clean && rm -rf/var/lib/apt/lists/*
